@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Hemrika.FlexMail</id>
+    <version>1.0.7</version>
+    <title>Hemrika.FlexMail</title>
+    <authors>Rutger Hemrika</authors>
+    <owners>Hemrika</owners>
+    <description>
+      FlexMail API 3.0.0 Wrapper for .NET
+    </description>
+    <releaseNotes>
+      Updated SOAP reference for Flexmail API.
+      Implemented first async patterns for Flexmail API.
+      Added all targets for .NET 4.x
+    </releaseNotes>
+    <summary>
+      FlexMail API 3.0.0 Wrapper for .NET
+    </summary>
+    <language></language>
+    <projectUrl>https://nuget.org/packages/Hemrika.FlexMail</projectUrl>
+    <iconUrl>https://flexmail.be/frontend/web/favicon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <copyright>Copyright  2018</copyright>
+    <references></references>
+    <tags>FlexMail</tags>
+  </metadata>
+  <files>
+    <file src="lib\" target="lib" />
+    <file src="tools\" target="tools" />
+    <file src="content\" target="content" />
+  </files>
+</package>

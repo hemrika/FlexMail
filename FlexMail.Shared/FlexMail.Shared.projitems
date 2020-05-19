@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>26742cce-1027-4d5d-8b6a-14d56b523daf</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>FlexMail</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Account.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Agency.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Blacklist.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Campaign.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Category.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EmailAddress.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Form.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Group.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MailingList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Message.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Properties\AssemblyInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\Blacklist.Designer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\Blacklist.nl-nl.Designer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\Campaign.Designer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\Campaign.nl-nl.Designer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\Category.Designer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\EmailAddress.Designer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\Form.Designer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\Group.Designer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\MailingList.Designer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\Message.Designer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Service\errorCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Service\FlexMailException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Service\IFlexMail.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Blacklist.nl-nl.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Blacklist.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Campaign.nl-nl.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Campaign.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Category.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\EmailAddress.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Form.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Group.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\MailingList.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Message.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
