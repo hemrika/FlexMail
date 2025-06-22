@@ -171,7 +171,7 @@ namespace FlexMail
                 else
                     if (_send != null) throw new FlexMailException(FlexMail.Resources.Campaign.ResourceManager.GetString("Send_" + _send.errorCode), _send.errorCode);
 
-                throw new FlexMailException(FlexMail.Resources.Blacklist.ResourceManager.GetString("Send_" + _send.errorCode), _send.errorCode);
+                throw new FlexMailException(FlexMail.Resources.Campaign.ResourceManager.GetString("Send_" + _send.errorCode), _send.errorCode);
             }
             catch (Exception ex)
             {
@@ -216,7 +216,7 @@ namespace FlexMail
                 else
                     if (_sendTest != null) throw new FlexMailException(FlexMail.Resources.Campaign.ResourceManager.GetString("SendTest_" + _sendTest.errorCode), _sendTest.errorCode);
 
-                throw new FlexMailException(FlexMail.Resources.Blacklist.ResourceManager.GetString("SendTest_" + _sendTest.errorCode), _sendTest.errorCode);
+                throw new FlexMailException(FlexMail.Resources.Campaign.ResourceManager.GetString("SendTest_" + _sendTest.errorCode), _sendTest.errorCode);
             }
             catch (Exception ex)
             {
@@ -262,7 +262,7 @@ namespace FlexMail
                 else
                     if (_update != null) throw new FlexMailException(FlexMail.Resources.Campaign.ResourceManager.GetString("Update_" + _update.errorCode), _update.errorCode);
 
-                throw new FlexMailException(FlexMail.Resources.Blacklist.ResourceManager.GetString("Update_" + _update.errorCode), _update.errorCode);
+                throw new FlexMailException(FlexMail.Resources.Campaign.ResourceManager.GetString("Update_" + _update.errorCode), _update.errorCode);
             }
             catch (Exception ex)
             {
@@ -309,7 +309,7 @@ namespace FlexMail
                 else
                     if (_create != null) throw new FlexMailException(FlexMail.Resources.Campaign.ResourceManager.GetString("Update_" + _create.errorCode), _create.errorCode);
 
-                throw new FlexMailException(FlexMail.Resources.Blacklist.ResourceManager.GetString("Update_" + _create.errorCode), _create.errorCode);
+                throw new FlexMailException(FlexMail.Resources.Campaign.ResourceManager.GetString("Update_" + _create.errorCode), _create.errorCode);
             }
             catch (Exception ex)
             {
@@ -354,7 +354,7 @@ namespace FlexMail
                 else
                     if (_delete != null) throw new FlexMailException(FlexMail.Resources.Campaign.ResourceManager.GetString("Delete_" + _delete.errorCode), _delete.errorCode);
 
-                throw new FlexMailException(FlexMail.Resources.Blacklist.ResourceManager.GetString("Delete_" + _delete.errorCode), _delete.errorCode);
+                throw new FlexMailException(FlexMail.Resources.Campaign.ResourceManager.GetString("Delete_" + _delete.errorCode), _delete.errorCode);
             }
             catch (Exception ex)
             {
@@ -415,7 +415,7 @@ namespace FlexMail
                 else
                     if (_history != null) throw new FlexMailException(FlexMail.Resources.Campaign.ResourceManager.GetString("History_" + _history.errorCode), _history.errorCode);
 
-                throw new FlexMailException(FlexMail.Resources.Blacklist.ResourceManager.GetString("History_" + _history.errorCode), _history.errorCode);
+                throw new FlexMailException(FlexMail.Resources.Campaign.ResourceManager.GetString("History_" + _history.errorCode), _history.errorCode);
             }
             catch (Exception ex)
             {
@@ -463,7 +463,7 @@ namespace FlexMail
                 else
                     if (_report != null) throw new FlexMailException(FlexMail.Resources.Campaign.ResourceManager.GetString("Report_" + _report.errorCode), _report.errorCode);
 
-                throw new FlexMailException(FlexMail.Resources.Blacklist.ResourceManager.GetString("Report_" + _report.errorCode), _report.errorCode);
+                throw new FlexMailException(FlexMail.Resources.Campaign.ResourceManager.GetString("Report_" + _report.errorCode), _report.errorCode);
             }
             catch (Exception ex)
             {
@@ -509,7 +509,7 @@ namespace FlexMail
                 else
                     if (_summary != null) throw new FlexMailException(FlexMail.Resources.Campaign.ResourceManager.GetString("Summary_" + _summary.header.errorCode), _summary.header.errorCode);
 
-                throw new FlexMailException(FlexMail.Resources.Blacklist.ResourceManager.GetString("Summary_" + _summary.header.errorCode), _summary.header.errorCode);
+                throw new FlexMailException(FlexMail.Resources.Campaign.ResourceManager.GetString("Summary_" + _summary.header.errorCode), _summary.header.errorCode);
             }
             catch (Exception ex)
             {
